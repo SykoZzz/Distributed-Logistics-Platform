@@ -1,17 +1,28 @@
 var builder = DistributedApplication.CreateBuilder(args);
 
-// 1. Definir contenedor de Redis
+// --- Recursos Existentes ---
 var cache = builder.AddRedis("cache");
-
-// 2. Definir contenedor de PostgreSQL y la base de datos
-var postgres = builder.AddPostgres("postgres")
-                      .WithDataVolume(); // Persistir datos si reiniciamos contenedor
-
+var postgres = builder.AddPostgres("postgres").WithDataVolume();
 var catalogDb = postgres.AddDatabase("catalogdb");
 
-// 3. Definir el proyecto Catalog API y pasarle las referencias
+// --- NUEVO: RabbitMQ ---
+// Creamos el contenedor de mensajería con persistencia
+var messaging = builder.AddRabbitMQ("messaging")
+                       .WithDataVolume()
+                       .WithManagementPlugin(); // Habilita la UI de admin de RabbitMQ
+
+// --- NUEVO: Base de datos para Orders ---
+var orderingDb = postgres.AddDatabase("orderingdb");
+
+// --- Proyectos ---
 builder.AddProject<Projects.Catalog_API>("catalog-api")
        .WithReference(cache)
        .WithReference(catalogDb);
+
+// Agregamos el Ordering API conectado a la DB y al Bus
+builder.AddProject<Projects.Ordering_API>("ordering-api")
+       .WithReference(orderingDb)
+       .WithReference(messaging)
+       .WaitFor(orderingDb);
 
 builder.Build().Run();
