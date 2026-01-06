@@ -1,0 +1,13 @@
+C:\Users\gabri\LogisticsPlatform\LogisticsPlatform.ServiceDefaults\bin\Debug\net10.0\LogisticsPlatform.ServiceDefaults.deps.json
+C:\Users\gabri\LogisticsPlatform\LogisticsPlatform.ServiceDefaults\bin\Debug\net10.0\LogisticsPlatform.ServiceDefaults.dll
+C:\Users\gabri\LogisticsPlatform\LogisticsPlatform.ServiceDefaults\bin\Debug\net10.0\LogisticsPlatform.ServiceDefaults.pdb
+C:\Users\gabri\LogisticsPlatform\LogisticsPlatform.ServiceDefaults\obj\Debug\net10.0\LogisticsPlatform.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\gabri\LogisticsPlatform\LogisticsPlatform.ServiceDefaults\obj\Debug\net10.0\LogisticsPlatform.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gabri\LogisticsPlatform\LogisticsPlatform.ServiceDefaults\obj\Debug\net10.0\LogisticsPlatform.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\gabri\LogisticsPlatform\LogisticsPlatform.ServiceDefaults\obj\Debug\net10.0\LogisticsPlatform.ServiceDefaults.AssemblyInfo.cs
+C:\Users\gabri\LogisticsPlatform\LogisticsPlatform.ServiceDefaults\obj\Debug\net10.0\LogisticsPlatform.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\gabri\LogisticsPlatform\LogisticsPlatform.ServiceDefaults\obj\Debug\net10.0\LogisticsPlatform.ServiceDefaults.dll
+C:\Users\gabri\LogisticsPlatform\LogisticsPlatform.ServiceDefaults\obj\Debug\net10.0\refint\LogisticsPlatform.ServiceDefaults.dll
+C:\Users\gabri\LogisticsPlatform\LogisticsPlatform.ServiceDefaults\obj\Debug\net10.0\LogisticsPlatform.ServiceDefaults.pdb
+C:\Users\gabri\LogisticsPlatform\LogisticsPlatform.ServiceDefaults\obj\Debug\net10.0\ref\LogisticsPlatform.ServiceDefaults.dll
+C:\Users\gabri\LogisticsPlatform\LogisticsPlatform.ServiceDefaults\obj\Debug\net10.0\LogisticsPlatform.ServiceDefaults.sourcelink.json

@@ -1,0 +1,24 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.1.0">
+
+  <ItemGroup>
+    <ProjectReference Include="..\LogisticsPlatform.CatalogService\LogisticsPlatform.CatalogService.csproj" />
+    <ProjectReference Include="..\LogisticsPlatform.OrderService\LogisticsPlatform.OrderService.csproj" />
+    <ProjectReference Include="..\LogisticsPlatform.ProcessorService\LogisticsPlatform.ProcessorService.csproj" />
+    <ProjectReference Include="..\LogisticsPlatform.ApiGateway\LogisticsPlatform.ApiGateway.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" Version="13.1.0" />
+    <PackageReference Include="Aspire.Hosting.RabbitMQ" Version="13.1.0" />
+    <PackageReference Include="Aspire.Hosting.Redis" Version="13.1.0" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>317ea66c-8fde-4225-a1d5-e37b1ad7049d</UserSecretsId>
+  </PropertyGroup>
+
+</Project>

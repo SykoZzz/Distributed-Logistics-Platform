@@ -1,0 +1,6 @@
+@LogisticsPlatform.ProcessorService_HostAddress = http://localhost:5135
+
+GET {{LogisticsPlatform.ProcessorService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
