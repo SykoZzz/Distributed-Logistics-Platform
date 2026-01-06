@@ -1,0 +1,8 @@
+<Solution>
+  <Project Path="LogisticsPlatform.ApiGateway/LogisticsPlatform.ApiGateway.csproj" />
+  <Project Path="LogisticsPlatform.AppHost/LogisticsPlatform.AppHost.csproj" />
+  <Project Path="LogisticsPlatform.CatalogService/LogisticsPlatform.CatalogService.csproj" />
+  <Project Path="LogisticsPlatform.OrderService/LogisticsPlatform.OrderService.csproj" />
+  <Project Path="LogisticsPlatform.ProcessorService/LogisticsPlatform.ProcessorService.csproj" />
+  <Project Path="LogisticsPlatform.ServiceDefaults/LogisticsPlatform.ServiceDefaults.csproj" />
+</Solution>
