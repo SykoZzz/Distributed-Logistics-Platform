@@ -1,0 +1,11 @@
+# .gitignore para .NET y Aspire
+.vs/
+bin/
+obj/
+.idea/
+*.user
+[Dd]ebug/
+[Rr]elease/
+*.suo
+.service/
+appsettings.Development.json
